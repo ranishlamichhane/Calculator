@@ -19,6 +19,3 @@ function seeResult() {
 function deleteOne() {
     display.value = display.value.slice(0, -1);
 }
-function calculatePercentage() {
-    display.value = display.value / 100;
-}
