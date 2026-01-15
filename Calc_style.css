@@ -1,59 +1,68 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 
-    body{
+    body {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 }
-.main-card{
+
+.main-card {
     background-color: #090808be;
     width: 500px;
     max-width: 90%;
-    height:500px;
+    height: 500px;
     border-radius: 20px;
-   display: grid;
-    justify-content:center;
-   margin-top:100px;
-   align-items: center;
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
 }
-.Switches{
+
+.Switches {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    
+
 }
-button{
+
+button {
     padding: 18px;
-    border-radius:2%;
+    border-radius:50px;
     border: none;
+    cursor: pointer;
     font-size: 18px;
 }
-button :hover{
+
+button :hover {
     background-color: #ddd;
 }
- input{
+
+input {
     display: flex;
     justify-content: center;
-    width:100%;
+    width: 100%;
     height: 60px;
+    background-color: hsl(0, 0, 15%);
     text-align: right;
     font-size: 25px;
     outline: none;
     border-radius: 2px;
     border: none;
 }
-.operator{
+
+.operator {
     background-color: #ff9500;
     color: white;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 20px;
 }
-.operator :hover{
-  background-color: white;
+
+.operator :hover {
+    background-color: white;
 }
