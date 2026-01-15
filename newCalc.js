@@ -7,13 +7,18 @@ function appendtoDisplay(input) {
 function clearDipslay() {
     display.value = "";
 }
-function seeResult(){
-    display.value=eval(display.value);
+function seeResult() {
+    try{
+        display.value = eval(display.value);
+    }
+    catch(error){
+        display.value="Error";
+    }
 }
 
-function deleteOne(){
-    display.value=display.value.slice(0 ,-1);
+function deleteOne() {
+    display.value = display.value.slice(0, -1);
 }
-function calculatePercentage(){
-    display.value=display.value/100;
+function calculatePercentage() {
+    display.value = display.value / 100;
 }
